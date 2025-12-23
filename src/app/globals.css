@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-phone: 40rem;
+  --breakpoint-tablet: 48rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
+
+  --color-gray-60: rgb(229 229 231);
+  --color-blackCarbon: #0b0d10;
+  --color-DeepBlack: #171717;
+  --color-GraphiteBlack: #151515;
+  --color-smokeGray: #888888;
+  --color-charcoalBlue: #191a23;
+  --color-metalicGray: #5e5e5e;
+  --color-customDarkGray: #555555;
+  --color-customGray: rgb(149, 151, 158);
+  --color-customBlue: #2047f4;
+  --color-customGreen: rgba(196, 240, 0, 1);
+  --color-secondary: hsl(240, 3.7%, 15.9%);
+  --color-secondary-foreground: hsl(0, 0%, 98%);
+}
+
+.container {
+  @apply mx-auto px-[1.5rem] lg:px-[2rem] relative 2xl:max-w-screen-xl;
+}
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+/* ------------------------- SECTION CONTACT ------------------------- */
+
+.input-box {
+  box-sizing: border-box;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  resize: none;
+}
+
+.input-box .input-field label {
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-field .input:focus,
+.input-field .input:valid {
+  border-bottom: 1px solid #2047f4;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+  top: -15px;
+  color: #2047f4;
+}
+
+.input-field textarea:focus ~ label,
+.input-field textarea:valid ~ label {
+  top: -28px;
+  color: #2047f4;
+}
+
+.MyGradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
