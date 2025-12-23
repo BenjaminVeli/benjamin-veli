@@ -14,8 +14,8 @@ export async function handleForm(formData: FormData) {
     await sendEmail({
         subject: `Nuevo mensaje de ${to_name}`,
         to: [{
-            name: "TomsoJs", // Tu nombre o el de tu empresa
-            email: "tomso.app@gmail.com" // Tu correo de recepción
+            name: "Benjamín Veli Mariano", // Tu nombre o el de tu empresa
+            email: "velibenjamin222@gmail.com" // Tu correo de recepción
         }],
         htmlContent: `
             <h2>Has recibido un nuevo mensaje de contacto</h2>

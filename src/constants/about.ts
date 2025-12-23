@@ -32,7 +32,7 @@ export const latestProjects = [
     {
         id: 4,
         img: Portfolio,
-        name: "Portfolio",
+        name: "Portfolio Antiguo",
         url: "https://tomso-portfolio.vercel.app/",
         description: "Portfolio es el portafolio de todos los proyectos que contiene BenjamínVeli."
     },

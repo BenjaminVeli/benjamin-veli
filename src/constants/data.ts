@@ -4,9 +4,9 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 export const navLinks = [
     { id: 1, href: "/", name: "Inicio" },
-    { id: 2, href: "/sobre-nosotros", name: "Sobre Nosotros" },
+    { id: 2, href: "/about-me", name: "Sobre mí" },
     { id: 3, href: "/precios", name: "Precios" },
-    { id: 4, href: "/contacto", name: "Contacto" },
+    { id: 4, href: "/contact-me", name: "Contacto" },
 ]
 export const services = [
     {

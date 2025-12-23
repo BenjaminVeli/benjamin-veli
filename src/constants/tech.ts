@@ -10,6 +10,9 @@ import Npm from "../assets/images/tools/npm-original.png";
 import React from "../assets/images/tools/react-original.png";
 import Tailwind from "../assets/images/tools/tailwindcss-original.png";
 import VsCode from "../assets/images/tools/vscode-original.png";
+import Angular from "../assets/images/tools/angular.png";
+import CSharp from "../assets/images/tools/csharp.png";
+import SqlServer from "../assets/images/tools/sqlserver.png";
 
 export const technologies: Technology[] = [
     {
@@ -61,5 +64,20 @@ export const technologies: Technology[] = [
         id: 10,
         img: Npm,
         name: "Npm",
+    },
+    {
+        id: 11,
+        img: Angular,
+        name: "Angular",
+    },
+    {
+        id: 12,
+        img: CSharp,
+        name: "CSharp",
+    },
+    {
+        id: 13,
+        img: SqlServer,
+        name: "SqlServer",
     },
 ]

@@ -1,6 +1,6 @@
 import Hero from "@/sections/Hero"
-import Process from "@/sections/Process"
-import Question from "@/sections/Question"
+// import Process from "@/sections/Process"
+// import Question from "@/sections/Question"
 import Technology from "@/sections/Technology"
 
 export const metadata = {
@@ -24,8 +24,8 @@ const page = () => {
     <>
       <Hero />
       <Technology />
-      <Process />
-      <Question />
+      {/* <Process />
+      <Question /> */}
     </>
   )
 }

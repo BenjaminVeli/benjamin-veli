@@ -33,13 +33,13 @@ const Contact = () => {
                         variants={fadeInStaggerChild}
                         className="text-4xl md:text-6xl font-medium text-center tracking-tighter text-customBlue mb-5 mt-4 md:mt-0"
                     >
-                        Contáctanos!
+                        Contactame
                     </motion.h1>
                     <motion.p
                         variants={fadeInStaggerChild}
                         className="text-xl md:text-2xl text-blackCarbon  text-center mb-16 md:mb-40"
                     >
-                        ¿Tienes una propuesta o idea interesante para compartir? ¡Hagámosla realidad!
+                        ¿Tienes un proyecto o una oportunidad profesional? Hablemos.
                     </motion.p>
 
                     <motion.div

@@ -27,7 +27,7 @@ const Footer = () => {
                   className="text-customBlue">@BenjaminVeli</Link>
               </p>
               <p className="text-neutral-600 text-sm">
-                Impulsa tu negocio con un <span className="text-neutral-800">Software Web</span>
+                Diseñador y Desarrollador de <span className="text-neutral-800">Software Web</span>
               </p>
             </div>
 
@@ -52,8 +52,8 @@ const Footer = () => {
             <div
               className="flex flex-col items-center gap-4 text-center text-sm"
             >
-              <h3 className="text-black font-bold">Contacta con Nosotros</h3>
-              <p className="text-neutral-600">tomso.app@gmail.com</p>
+              <h3 className="text-black font-bold">Contactame</h3>
+              <p className="text-neutral-600">velibenjamin222@gmail.com</p>
               <h4 className="font-medium mt-4 uppercase">Social Media</h4>
               <div className="flex gap-4">
                 {socialMedias.map((socialMedia) => (

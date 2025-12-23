@@ -5,7 +5,7 @@ const LatestProyect = () => {
   return (
     <section id="latest-proyect" className="py-20 md:py-24">
       <div className="container">
-        <h2 className="tracking-tight text-neutral-900 text-4xl md:text-5xl font-semibold text-center">Nuestros últimos proyectos</h2>
+        <h2 className="tracking-tight text-neutral-900 text-4xl md:text-5xl font-semibold text-center">Mis últimos proyectos</h2>
         <p className=""></p>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-10 my-10">
           {latestProjects.map(({ id, img, name, description, url }) => (
