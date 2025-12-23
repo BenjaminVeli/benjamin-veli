@@ -1,6 +1,6 @@
 import { Variants } from "framer-motion";
 
-export const containerStagger = {
+export const containerStagger: Variants = {
   initial: {},
   animate: {
     transition: {
@@ -9,7 +9,7 @@ export const containerStagger = {
   },
 };
 
-export const fadeInUp = {
+export const fadeInUp: Variants = {
   initial: {
     y: 180,
     opacity: 0,
@@ -24,7 +24,7 @@ export const fadeInUp = {
   },
 };
 
-export const fadeInLeft = {
+export const fadeInLeft: Variants = {
   initial: {
     x: -500,
     opacity: 0,
