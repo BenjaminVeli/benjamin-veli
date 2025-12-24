@@ -3,7 +3,7 @@ import * as brevo from "@getbrevo/brevo";
 import { Params } from "@/types";
 
 const apiInstance = new brevo.TransactionalEmailsApi();
-
+console.log("API_BREVO_KEY:", process.env.API_BREVO_KEY);
 apiInstance.setApiKey(
     brevo.TransactionalEmailsApiApiKeys.apiKey,
     process.env.API_BREVO_KEY as string
@@ -21,7 +21,7 @@ export async function sendEmail({ subject, to, htmlContent }: Params) {
                 </body>
         </html>`;
         // smtpEmail.sender = sender; // Ahora el remitente es dinámico
-        smtpEmail.sender = { name: "Consulta de Cliente", email: "exploratec.app@gmail.com" };
+        smtpEmail.sender = { name: "Consulta de la empresa", email: "tomso.app@gmail.com" };
 
         await apiInstance.sendTransacEmail(smtpEmail);
     } catch (error) {
