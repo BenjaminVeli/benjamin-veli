@@ -1,5 +1,5 @@
 import Image from "next/image"
-import HistoryImg from "../assets/images/HistoryImg.webp";
+import HistoryImg from "../assets/images/promocion.webp";
 
 const History = () => {
     return (
