@@ -2,18 +2,18 @@ import Contact from "@/sections/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TomsoJs - Contacto",
-  description: "Escríbenos y da el primer paso para hacer realidad tu proyecto. ¡Estamos listos para ayudarte!",
+  title: "TomsoJs - Contact Me",
+  description: "¿Tienes un proyecto o una oportunidad profesional? Hablemos.",
   openGraph: {
-    title: "TomsoJs - Contacto",
-    description: "Escríbenos y da el primer paso para hacer realidad tu proyecto. ¡Estamos listos para ayudarte!",
-    url: "https://tomsojs.vercel.app/contacto",
+    title: "TomsoJs - Contact Me",
+    description: "¿Tienes un proyecto o una oportunidad profesional? Hablemos.",
+    url: "https://benjamin-veli-mariano.vercel.app/contact-me",
     siteName: "TomsoJS",
     type: "website",
     locale: "es_ES",
   },
   alternates: {
-    canonical: "https://tomsojs.vercel.app/contacto",
+    canonical: "https://benjamin-veli-mariano.vercel.app/contact-me",
   }
 };
 

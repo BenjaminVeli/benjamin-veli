@@ -38,11 +38,13 @@ const Service = () => {
               <span className={`h-px block sm:my-5 my-4 ${selectedIds.includes(id) ? "bg-customGreen" : "bg-DeepBlack"}`} />
               <ul className="inline-flex flex-col text-left gap-4">
                 {features.map(({ id: featureId, feature }) => (
-                  <li key={featureId} className="flex items-center gap-2">
-                    <div className={`w-6 h-6 rounded-full flex items-center justify-center ${selectedIds.includes(id) ? "bg-customGreen" : "bg-DeepBlack"}`}>
-                      <RiCheckFill size={18} className={`${selectedIds.includes(id)  ? "text-GraphiteBlack" : "text-white"}`} />
+                  <li key={featureId} className="grid grid-cols-12 items-center gap-2">
+                    <div className="flex items-center justify-center">
+                      <div className={`col-span-1 w-6 h-6 rounded-full flex items-center justify-center ${selectedIds.includes(id) ? "bg-customGreen" : "bg-DeepBlack"}`}>
+                        <RiCheckFill size={18} className={`${selectedIds.includes(id)  ? "text-GraphiteBlack" : "text-white"}`} />
+                      </div>
                     </div>
-                    <span className={`${selectedIds.includes(id) ? "text-white" : "text-GraphiteBlack"}`}>{feature}</span>
+                    <span className={`col-span-11 ${selectedIds.includes(id) ? "text-white" : "text-GraphiteBlack"}`}>{feature}wasa</span>
                   </li>
                 ))}
               </ul>
