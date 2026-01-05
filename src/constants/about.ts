@@ -1,3 +1,4 @@
+import SmartCVAI from "../assets/images/SmartCvAI.webp"
 import SmartCv from "../assets/images/SmartCv.webp"
 import Socially from "../assets/images/Socially.webp"
 import Portfolio from "../assets/images/Portfolio.webp"
@@ -10,10 +11,10 @@ import Envolved3 from "../assets/images/Envolved3.webp"
 export const latestProjects = [
     {
         id: 1,
-        img: SmartCv,
-        name: "SmartCV",
-        url: "https://smartcv-js.vercel.app/",
-        description: "SmartCV permite a los usuarios crear currículums profesionales con el formato Harvard."
+        img: SmartCVAI,
+        name: "Smart Cv AI",
+        url: "https://smart-curriculum-ai.vercel.app/",
+        description: "Smart CV AI analiza tu CV, lo evalúa y te brinda recomendaciones de mejora utilizando la inteligencia artificial Claude 4.0."
     },
     {
         id: 2,
@@ -35,6 +36,13 @@ export const latestProjects = [
         name: "Portfolio Antiguo",
         url: "https://tomso-portfolio.vercel.app/",
         description: "Portfolio es el portafolio de todos los proyectos que contiene BenjamínVeli."
+    },
+    {
+        id: 5,
+        img: SmartCv,
+        name: "SmartCV",
+        url: "https://smartcv-js.vercel.app/",
+        description: "SmartCV permite a los usuarios crear currículums profesionales con el formato Harvard."
     },
 ]
 
