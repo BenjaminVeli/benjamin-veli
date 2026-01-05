@@ -44,7 +44,7 @@ const Service = () => {
                         <RiCheckFill size={18} className={`${selectedIds.includes(id)  ? "text-GraphiteBlack" : "text-white"}`} />
                       </div>
                     </div>
-                    <span className={`col-span-11 ${selectedIds.includes(id) ? "text-white" : "text-GraphiteBlack"}`}>{feature}wasa</span>
+                    <span className={`col-span-11 ${selectedIds.includes(id) ? "text-white" : "text-GraphiteBlack"}`}>{feature}</span>
                   </li>
                 ))}
               </ul>
