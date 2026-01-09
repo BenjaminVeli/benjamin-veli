@@ -57,7 +57,7 @@ const Header = () => {
                         </nav>
 
                         <div className="hidden gap-x-6 items-center lg:flex">
-                            <a href="https://drive.google.com/file/d/1_wDRwWyMd-G4Yx32SYMMeirrcGnA8g8K/view?usp=sharing" rel="noopener noreferrer" target="_blank" className="border-2 py-1 text-sm uppercase px-2.5 rounded-md bg-customGreen font-medium">
+                            <a href="https://drive.google.com/file/d/1CKk-gvUHzwkTOvr3HEDc-XtnjnFa4oNO/view?usp=sharing" rel="noopener noreferrer" target="_blank" className="border-2 py-1 text-sm uppercase px-2.5 rounded-md bg-customGreen font-medium">
                                 <span>Descargar Cv</span>
                             </a>
                         </div>
@@ -109,7 +109,7 @@ const Header = () => {
                                     <NavItems closeMenu={closeMenu} />
                                 </nav>
                                 <div className="py-14">
-                                    <a href="https://drive.google.com/file/d/1_wDRwWyMd-G4Yx32SYMMeirrcGnA8g8K/view?usp=sharing" rel="noopener noreferrer" target="_blank" className="border py-1 text-sm uppercase px-2.5 rounded-md bg-customGreen font-medium">
+                                    <a href="https://drive.google.com/file/d/1CKk-gvUHzwkTOvr3HEDc-XtnjnFa4oNO/view?usp=sharing" rel="noopener noreferrer" target="_blank" className="border py-1 text-sm uppercase px-2.5 rounded-md bg-customGreen font-medium">
                                         <span>Descargar Cv</span>
                                     </a>
                                 </div>

@@ -3,6 +3,7 @@ import SmartCv from "../assets/images/SmartCv.webp"
 import Socially from "../assets/images/Socially.webp"
 import Portfolio from "../assets/images/Portfolio.webp"
 import CurrencyFlow from "../assets/images/CurrencyFlow.webp"
+import GalleryPhotos from "../assets/images/GalleryPhotos.webp"
 
 import Envolved1 from "../assets/images/Envolved1.webp"
 import Envolved2 from "../assets/images/Envolved2.webp"
@@ -43,6 +44,13 @@ export const latestProjects = [
         name: "SmartCV",
         url: "https://smartcv-js.vercel.app/",
         description: "SmartCV permite a los usuarios crear currículums profesionales con el formato Harvard."
+    },
+    {
+        id: 6,
+        img: GalleryPhotos,
+        name: "GalleryPhotos",
+        url: "https://gallery-photos-unsplash.vercel.app/",
+        description: "GalleryPhotos esta basado en la api de desarrolladores por parte de Unsplash."
     },
 ]
 
